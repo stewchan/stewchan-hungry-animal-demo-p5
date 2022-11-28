@@ -1,9 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Elephant extends Actor
+public class Apple extends Actor
 {
+
+    
     public void act()
     {
-        move(2);
+        int x = getX();
+        int y = getY() + 1;
+        setLocation(x, y);
     }
 }
