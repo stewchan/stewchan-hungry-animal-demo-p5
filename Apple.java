@@ -7,7 +7,7 @@ public class Apple extends Actor
     public void act()
     {
         int x = getX();
-        int y = getY() + 1;
+        int y = getY() + 2;
         setLocation(x, y);
     }
 }
